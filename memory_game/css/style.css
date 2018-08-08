@@ -22,7 +22,7 @@ h2{
   text-transform: uppercase;
 }
 
-p {
+p , #score{
 font-family: "Droid Serif", serif;
 line-height: 26px;
 font-size:18px;
@@ -78,14 +78,26 @@ main{
   margin:35px auto;
 }
 
+button{
+  font-family:"Raleway", sans-serif;
+  background-color: #00a6b3;
+  color: #ffffff;
+  font-size: 18px;
+  padding:10px;
+  border:none;
+  margin:20px;
+}
+
+
+
 footer {
   text-transform:uppercase;
-  padding:0 20px;
   background-color:#0d2c40;
   color:white;
   font-size:14px;
   letter-spacing:.08em;
   font-weight:500;
+  padding:0 20px;
 }
 
 .copyright{
@@ -96,6 +108,7 @@ footer {
 .message{
   font-family:"Raleway", sans-serif;
   float:right;
+
 }
 
 .clearfix:after{
